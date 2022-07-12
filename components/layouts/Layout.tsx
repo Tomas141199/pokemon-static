@@ -26,7 +26,7 @@ export const Layout: FC<LayoutProps> = ({ children, title = "PokemonApp" }) => {
         />
         <meta
           property="og:description"
-          content={`Esta es la pagina sobre ${title}`}
+          content={`Esta es la pagina sobre tiene el titulo ${title}`}
         />
         <meta property="og:image" content={`${origin}/img/banner.png`} />
       </Head>
